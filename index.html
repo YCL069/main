@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>相逢的人会再相逢</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://www.ycl.cool/js/function.js" async></script>
+</head>
+
+<body>
+    <div id="main" class="container">
+        <div class="row my-card justify-content-center">
+            <div class="col-lg-4 photo-bg" id="bingimg" style="opacity: 0.5"></div>
+            <div class="col-lg-8 card">
+                <h1>YCL's Website</h1>
+                <p>一个普通学生的个人网页</p>
+                <p><i>我们一日日度过的所谓的日常，实际上可能是接连不断的奇迹！--京阿尼《日常》</i></p>
+                <div class="container-fluid">
+                    <div class="row">
+                        <a href="https://blog.ycl.cool" target="_blank" class="btn btn-secondary col-lg-4">Blog</a>
+                        <a href="https://tool.ycl.cool" target="_blank" class="btn btn-success col-lg-4">网页工具箱</a>
+                        <a href="https://github.com/YCL0609" target="_blank" class="btn btn-info col-lg-4">Github</a>
+                    </div>
+                </div>
+                <footer>
+                    <p>
+                        <b id="mobile" style="display: none;">背景图片: 米游社
+                            <a href="https://www.miyoushe.com/sr/article/44876590">@花玥rHYme</a><br>
+                        </b>
+                        Send me an email: <a href="mailto:email@ycl.cool" target="_blank">email@ycl.cool</a><br>
+                        Copyright © 2021 YCL
+                        <a href="https://icp.gov.moe/?keyword=20236144" target="_blank">萌ICP备20236144号</a>
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.addEventListener('resize', function () {
+            if (window.innerWidth < 767) {
+                document.getElementById('mobile').style.display = null;
+            } else {
+                document.getElementById('mobile').style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>

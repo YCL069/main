@@ -125,6 +125,10 @@ footer p {
     font-size: 12px;
 }
 
+.mobile {
+    display: none;
+}
+
 @media (max-width: 1199px) {
     body {
         min-height: 600px;
@@ -167,5 +171,8 @@ footer p {
     }
     .card {
         padding: 20px;
+    }
+    .mobile{
+        display: block;
     }
 }
